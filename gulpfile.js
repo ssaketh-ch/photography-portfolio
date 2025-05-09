@@ -12,18 +12,29 @@ gulp.task('delete', function () {
 });
 
 gulp.task('resize-images', function () {
+    console.log("Starting image resize...");
     return gulp.src('images/*.*')
         .pipe(imageResize({
             width: 1024,
             imageMagick: true
         }))
+        .on('error', function (err) {
+            console.log('Error in full-size image resize:', err);
+        })
         .pipe(gulp.dest('images/fulls'))
         .pipe(imageResize({
             width: 512,
             imageMagick: true
         }))
-        .pipe(gulp.dest('images/thumbs'));
+        .on('error', function (err) {
+            console.log('Error in thumbnail image resize:', err);
+        })
+        .pipe(gulp.dest('images/thumbs'))
+        .on('end', function () {
+            console.log('Image resize task completed');
+        });
 });
+
 
 // compile scss to css
 gulp.task('sass', function () {

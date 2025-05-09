@@ -1590,10 +1590,6 @@
 				z-index: 1;
 			}
 
-			#main .thumb > p {
-				display: none;
-			}
-
 		#main:after {
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
