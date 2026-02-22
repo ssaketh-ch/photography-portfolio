@@ -1,19 +1,3 @@
-<img src="https://i.imgur.com/ZG4gSnb.jpeg" alt="demo"/>
-
-# Photography ![OpenCollective](https://opencollective.com/photography/tiers/backer/badge.svg?label=backer&color=brightgreen)
-A jekyll website for photographers
-
-## Highlights
-1. Easy setup and you get a website of your own for __free__. No web hosting charges too.
-2. To add new pictures, you need to just upload them. __No code__ changes required.
-3. And, my favorite, you get to see EXIF data like __aperture, shutter speed, iso__ etc. when you click on any image, automagically. Moreover, you can customize this as per your needs.
-
-## Quick Start
-If you know a tad about tech and love taking pictures then this open-source project may help you setup a website to showcase
-all your creations without effort. And not just that, with this you need not pay a single dime to host your website as
-it's hosted by GitHub for __free__.
-
-**Just follow the below steps and your website would be live in no time:**
 
 1. Fork this repo by hitting the `Fork` button at the top right corner.
 2. Enable github pages from the repo settings.
@@ -40,8 +24,8 @@ Note: You only need to build the website if you make changes such as replacing t
 ## ProTips
 
 ### Resize Images
-I have made this as a [npm](https://www.npmjs.com) package with [gulp](http://gulpjs.com/) to __automate image resizing
-and thumbnail generation__. So if you're lazy like me then you can just do the following before you push your images to github.
+this is made as a [npm](https://www.npmjs.com) package with [gulp](http://gulpjs.com/) to __automate image resizing
+and thumbnail generation__. So if you're lazy, then you can just do the following before you push your images to github.
 
 1. Fork and clone the project to your computer
 2. Go inside the project `$ cd photography`
@@ -53,30 +37,3 @@ and thumbnail generation__. So if you're lazy like me then you can just do the f
 ### Contact Form
 You can make the contact form work without the need of any server-side code. Just follow this [article on github](https://github.com/dwyl/html-form-send-email-via-google-script-without-server) which uses a simple google script to send emails or to upload to a google spreadsheet when someone submits the form.
 
-## Credits
-Thanks to [AJ](https://twitter.com/ajlkn) for the website template which I enhanced for [jekyll](http://jekyllrb.com/).
-
-## Sponsors
-
-Proudly sponsored by these awesome apps. Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://x.com/rampatra_)]
-
-<table>
-    <tr>
-        <td>
-            <a href="https://presentifyapp.com/" target="_blank"><img src="https://presentifyapp.com/assets/img/presentify/app-icon-512.png" width="150" height="150"></a>
-        </td>
-        <td>
-            <a href="https://facescreenapp.com/" target="_blank"><img src="https://github.com/user-attachments/assets/b251b413-ccc4-48f1-a316-c2c2a71f959e" width="150" height="150"></a>
-        </td>
-        <td>
-            <a href="https://todobarapp.com/" target="_blank"><img src="https://todobarapp.com/assets/img/todobar/app-icon-512.png" width="150" height="150"></a>
-        </td>
-        <td>
-            <a href="https://simplefillapp.com/" target="_blank"><img src="https://github.com/user-attachments/assets/6c575d9c-b65b-4ce7-a468-30f74cfedf18" width="150" height="150"></a>
-        </td>
-    </tr>
-</table>
-
----
-
-_P.S. For any queries or concerns, you can reach out to me on [Twitter](https://twitter.com/ram__patra). I'll try my best to help 🙏._
